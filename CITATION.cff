@@ -1,0 +1,47 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Template repository for Jupyter workshops on Surf Research
+  Cloud
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Jelle
+    family-names: Treep
+    affiliation: Utrecht University
+    orcid: 'https://orcid.org/0000-0003-3196-7954'
+  - given-names: Garrett
+    family-names: Speed
+    affiliation: Utrecht University
+    orcid: 'https://orcid.org/0000-0002-6074-9684'
+  - given-names: Aristoteles
+    family-names: Kandylas
+    affiliation: Utrecht University
+    orcid: 'https://orcid.org/0009-0003-4818-9607'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.10034381
+    description: Zenodo Publication of Workshop Material
+  - type: url
+    value: 'https://github.com/UtrechtUniversity/gis-python-power'
+    description: Workshop's Dedicated GitHub Repository
+repository-code: >-
+  https://github.com/UtrechtUniversity/src-jupyter-workshop-template
+url: 'https://zenodo.org/records/10034382'
+repository: 'https://github.com/UtrechtUniversity/gis-python-power'
+abstract: >-
+  This repository contains material for setting up a short
+  workshop using Jupyter Notebooks and Surf Research Cloud
+  infrastructure. In this repository template the option to
+  upload and use your own data is also provided.
+keywords:
+  - python
+  - ansible
+  - gis
+  - jupyter
+  - utrecht-university
+license: MIT

@@ -1,0 +1,8 @@
+---
+- name: Transfer workshop materials
+  hosts: localhost
+  gather_facts: true
+
+  roles:
+    - role: transfer_workshop_materials
+...

@@ -1,0 +1,7 @@
+---
+- name: Copy course notebooks to user's scratch directories
+  block:
+    - name: Copy and unzip course material
+      ansible.builtin.unarchive:
+        src: workshop_material.zip
+        dest: /scratch

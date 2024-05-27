@@ -1,0 +1,21 @@
+---
+apt:
+  repo_keys: []
+  repos:
+  - 'deb http://archive.ubuntu.com/ubuntu focal main multiverse universe restricted'
+  - 'deb http://archive.ubuntu.com/ubuntu focal-security main multiverse universe restricted'
+  packages:
+  - ncdu
+
+miniconda:
+  name: workshop-kernel
+  channels:
+  - conda-forge
+  dependencies:
+  - python=3.10       # change version if needed
+  - numpy>=1.20.0     # example, remove or change version if needed
+  - matplotlib>=3.4.0 # example, remove or change version if needed
+  - ipykernel
+  - pip
+  - pip:
+  prefix: /etc/miniconda/envs
