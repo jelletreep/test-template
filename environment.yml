@@ -8,14 +8,14 @@ apt:
   - ncdu
 
 miniconda:
-  name: workshop-kernel
+  name: test-kernel
   channels:
   - conda-forge
   dependencies:
-  - python=3.10       # change version if needed
-  - numpy>=1.20.0     # example, remove or change version if needed
-  - matplotlib>=3.4.0 # example, remove or change version if needed
+  - python=3.9      # change version if needed
+  - jupyterlab
   - ipykernel
   - pip
   - pip:
+    - git+https://github.com/Semantics-of-Sustainability/tempo-embeddings.git
   prefix: /etc/miniconda/envs
